@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #292929;
+    font-family: 'calibri';
+}
+
+header {
+    background: #a7c957;
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    min-height: 167px;
+}
+
+.icono {
+    width: 128px;
+    height: 128px;
+    float: left;
+}
+
+header div nav ul li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    padding: 10px 0;
+    margin-right: 10px;
+}
+
+header div nav ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+footer nav ul li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+h1 {
+    float: left;
+    font-size: 3rem;
+    max-width: 100px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 320px) {
+    .icono {
+        width: 86px;
+        height: 86px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .infoBox {
+        min-width: 100%;
+        background-image: url(../assets/images/trailerStock1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .infoImg {
+        visibility: hidden;
+    }
+
+    .footerTextBox {
+        min-width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .infoBox {
+        min-width: 100%;
+        background-image: url(../assets/images/trailerStock1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .infoImg {
+        visibility: hidden;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .galeriaBox {
+        flex-direction: column;
+    }
+
+    .afiliadosBox {
+        flex-direction: column;
+    }
+
+    .afiliadosBox2 {
+        flex-direction: column;
+    }
+
+    .afiliadosTextBox {
+        text-align: center;
+    }
+
+    .afiliadosTextBox2 {
+        text-align: center;
+    }
+}
+
+
+.infoBoxGlobalLeft {
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+
+.infoBox {
+    display: flex;
+    width: 30%;
+    padding: 10px;
+    background-color: #1e3f20;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.infoImg {
+    display: flex;
+    width: 70%;
+}
+
+.infoBoxGlobalRight {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    height: 800px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.infoText {
+    font-size: 1.2rem;
+}
+
+.footer {
+    display: flex;
+    background-color: #6a994e;
+    width: 100%;
+}
+
+
+.navFooter {
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+    padding: 10px 0;
+    margin-right: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iconoFooter {
+    width: 128px;
+    height: 128px;
+    float: left;
+}
+
+.footerText {
+    display: flex;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.541);
+    padding: 15px;
+}
+
+.footerTextBox {
+    display: flex;
+    width: 100%;
+}
+
+.terms {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+
+.bodyTerms {
+    background-color: white;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+.navTermsIndex {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+.indiceLi {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.contenedorFormulario {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    padding: 10%;
+    background-image: url(../assets/images/bosque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    background-attachment: fixed;
+}
+
+.contenedorFormularioCaja {
+    display: flex;
+    width: 50%;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: 5px;
+    justify-content: center;
+    min-width: 400px;
+    max-width: 800px;
+    min-height: 400px;
+    max-height: 700px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.formText {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input {
+    border: 0;
+    outline: none;
+    width: 250px;
+}
+
+.field {
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+.galeriaBox {
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.galeriaBox2 {
+    display: flex;
+    width: 100%;
+    background-color: wheat;
+}
+
+.galeriaBoxImg {
+    display: flex;
+    background-color: #aef7e7;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 100%;
+    max-width: 168px;
+    max-height: 168px;
+}
+
+.imgGaleriaSize {
+    width: 128px;
+    height: 128px;
+}
+
+.galeriaTextBox {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.afiliadosBox {
+    display: flex;
+    width: 100%;
+    background-color: rgb(216, 231, 245);
+}
+
+.afiliadosBox2 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(181, 181, 240);
+    flex-direction: row-reverse;
+}
+
+.afiliadosBoxImg {
+    display: flex;
+    background-color: #dddb62;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 100%;
+    max-width: 168px;
+    max-height: 168px;
+}
+
+.imgAfiliadosSize {
+    width: 128px;
+    height: 128px;
+}
+
+.afiliadosTextBox {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.afiliadosTextBox2 {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.animButtonClass:hover {
+    color: rgb(243, 117, 0);
+    transition: color 0.2s;
+}
+
+.animButtonClassFooter:hover {
+    color: rgb(229, 255, 0);
+    transition: color 0.2s;
+}
